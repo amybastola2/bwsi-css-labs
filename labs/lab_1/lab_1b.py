@@ -65,7 +65,7 @@ def request_sanitized_operator(input_operator_string:str)->str:
 
 def main():
     
-    print(f"===== Simple Calculator =====")
+    print("===== Simple Calculator =====")
 
     # Ask the user for sample input    
     num1 = request_sanitized_number("Enter the first number: ")
